@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+
+<head>
+    <title>Thomas-Grid 2</title> <!-- name of the page-->
+    <style>
+        body {
+            background: grey; 
+        }
+
+        .painting-2 {
+            display: grid;
+            width: 600px;
+            height: 600px;
+            grid-template-rows: repeat(10, 1fr);
+            grid-template-columns: repeat(10, 1fr);
+
+            }
+
+           
+        /* main colour boxes    */
+        .lgreen {
+            background: #CFE4D1;
+        }
+
+        .lyellow {
+            background: #F5F9E2;
+        }
+
+        .blue {
+            background: #011CC1;
+        }
+
+        .yellow {
+            background: #DAB026;
+        }
+
+        .grey {
+            background: #585A56;
+        }
+
+
+
+        .tborder-right {
+            border-right: 15px solid #000000;
+        }
+
+        .tborder-left {
+            border-left: 15px solid #000000;
+        }
+
+        .tborder-bottom {
+            border-bottom: 15px solid #000000;
+        }
+
+        .tborder-top {
+            border-top: 15px solid #000000;
+        }
+        .lborder-right {
+            border-right: 3px solid #585A56;
+     
+        }
+
+        .lborder-bottom {
+            border-bottom: 3px solid #585A56;
+        }
+
+        
+/*       Main boxes with thick borders */
+
+        .section-1 {
+            grid-column: 1 / 3;
+            grid-row: 1 / 11;
+        }
+
+        .section-2 {
+            grid-column: 3 / 6;
+            grid-row: 1 / 8;
+        }
+
+        .section-3 {
+            grid-column: 3 / 6;
+            grid-row: 8 / 11;
+        }
+
+        .section-4 {
+            grid-column: span 5;
+            grid-row: 1 / 4;
+        }
+
+        .section-5 {
+            grid-column: 6 / 9;
+            grid-row: 4 / 8;
+        }
+
+
+        .section-6 {
+            grid-area: 8 / 6 / 11 / 9;
+        }
+
+        .section-7 {
+            grid-row: span 7;
+            grid-column: span 2;
+        }
+
+
+        /*       Transperent boxes with thin borders */
+
+        .section1-v1 {
+            grid-area: 1 / 1 / 11 / 2;
+           
+        }
+        
+        .section1-h1 {
+            grid-area: 1 / 1 / 2 / 3;
+           
+        }
+
+        .section1-h2 {
+            grid-area: 2 / 1 / 3 / 3;
+           
+        }
+        .section1-h3 {
+            grid-area: 3 / 1 / 4 / 3;
+           
+        }
+        .section1-h4 {
+            grid-area: 4 / 1 / 5 / 3;
+           
+        }
+        .section1-h5 {
+            grid-area: 5 / 1 / 6 / 3;
+           
+        }
+        .section1-h6 {
+            grid-area: 6 / 1 / 7 / 3;
+           
+        }
+        .section1-h7 {
+            grid-area: 7 / 1 / 8 / 3;
+           
+        }
+        .section1-h8 {
+            grid-area: 8 / 1 / 9 / 3;
+           
+        }
+        .section1-h9 {
+            grid-area: 9 / 1 / 10 / 3;
+           
+        }
+
+        .section5-v1 {
+            grid-area: 4 / 6 / 8 / 7;
+           
+        }
+        .section5-v2 {
+            grid-area: 4 / 7 / 8 / 8;
+           
+        }
+        .section5-h1 {
+            grid-area: 4 / 6 / 4 / 9;
+           
+        }
+        .section5-h2 {
+            grid-area: 5 / 6 / 5 / 9;
+           
+        }
+        .section5-h3 {
+            grid-area: 6 / 6 / 6 / 9;
+           
+        }
+        .section6-b1 {
+            grid-area: 8 / 6 / 9 / 7;
+           
+        }
+        .section6-b2 {
+            grid-area: 9 / 6 / 10 / 7;
+           
+        }
+        .section6-b3 {
+            grid-area: 10 / 6 / 11 / 7;
+           
+        }
+        .section6-b4 {
+            grid-area: 8 / 7 / 9 / 8;
+           
+        }
+        .section6-b5 {
+            grid-area: 9 / 7 / 10 / 8;
+           
+        }
+        .section6-b6 {
+            grid-area: 10 / 7 / 11 / 8;
+           
+        }
+        .section6-b7 {
+            grid-area: 8 / 8 / 9 / 9;
+           
+        }
+        .section6-b8 {
+            grid-area: 9 / 8 / 10 / 9;
+         
+        }
+        .section6-b9 {
+            grid-area: 10 / 8 / 11 / 9;
+           
+        }
+        .section-8{
+            grid-area: 4 / 6 / 8 / 9;
+           
+        }
+        
+    </style>
+</head>
+
+<body>
+ 
+    <div class="painting-2">
+
+        <div class="lgreen section-1 "></div>
+        <div class="lyellow section-2 tborder-left tborder-right tborder-bottom"></div>
+        <div class="yellow section-3 tborder-left tborder-right"></div>
+        <div class="blue section-4 tborder-bottom"></div>
+        <div class="lgreen section-5"></div>
+        <div class="lgreen section-6"></div>
+        <div class="lyellow section-7 tborder-left"></div>
+
+        <div class="section1-v1 lborder-right"></div>
+        <div class="section1-h1 lborder-bottom"></div>
+        <div class="section1-h2 lborder-bottom"></div>
+        <div class="section1-h3 lborder-bottom"></div>
+        <div class="section1-h4 lborder-bottom"></div>
+        <div class="section1-h5 lborder-bottom"></div>
+        <div class="section1-h6 lborder-bottom"></div>
+        <div class="section1-h7 lborder-bottom"></div>
+        <div class="section1-h8 lborder-bottom"></div>
+        <div class="section1-h9 lborder-bottom"></div>
+        <div class="section5-v1 lborder-right"></div>
+        <div class="section5-v2 lborder-right"></div>
+        <div class="section5-h1 lborder-bottom"></div>
+        <div class="section5-h2 lborder-bottom"></div>
+        <div class="section5-h3 lborder-bottom"></div>
+        <div class="section6-b1 lborder-right lborder-bottom"></div>
+        <div class="section6-b2 lborder-right lborder-bottom"></div>
+        <div class="section6-b3 lborder-right lborder-bottom"></div>
+        <div class="section6-b4 lborder-right lborder-bottom"></div>
+        <div class="section6-b5 lborder-right lborder-bottom"></div>
+        <div class="section6-b6 lborder-right lborder-bottom"></div>
+        <div class="section6-b7 lborder-bottom"></div>
+        <div class="section6-b8 lborder-bottom"></div>
+        <div class="section6-b9 lborder-bottom"></div>
+        <div class="section-8 tborder-bottom"></div>
+        
+        
+
+        
+    </div>
+</body>
+
+</html>
