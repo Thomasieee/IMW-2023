@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.page{
+    width: 700px;
+    background: white;
+    border: 1px solid black;
+    margin: auto;
+}
+body{
+    background:#F5D5EE;
+    font-family: Helvetica, sans-serif;
+}
+header {
+    width: 700px;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+main{
+    width: 700px;
+    height: 770px;   
+}
+footer{
+    height: 129px;
+    width: 700px;   
+}
+ul {
+    list-style: none;
+}
+ul li{
+    display:inline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.site-title{
+    font-size:36px ;
+    font-weight: 600;
+    padding: 20px;
+}
+.top-links{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}
+.comp-place{
+    
+    font-size: 72px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 72px;
+    padding-top: 45px;
+    padding-left: 134px;
+    padding-right: 134px;  
+}
+.frst-cta {
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration-line: underline;
+    padding: 45px 290px;
+}
+.info-section-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.infosec {
+    height:319px;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    border-right: 1px solid black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.info-cta {
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration-line: underline;
+}
+.footer-logic{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 31px 20px;
+}
+.copy-intro{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 37px 20px;
+    text-align: left;
+}
+.bot-lorem{
+    font-size: 10px;
+    font-weight: 400;
+    width: 200px;
+}
+.sociallinks{
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 29px;
+    }
+.bot-links{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 16px;   
+ }
+.comp-box{
+    height:347px;
+    border-bottom: 1px solid black ;
+    border-top: 1px solid black ;
+    
+}
