@@ -12,11 +12,12 @@ body {
     font-weight: 800;
     font-style: normal;
     color: black;   
-    transition: clip-path 250ms;
 }
 .cut:hover 
 {
     clip-path: polygon(0 43%, 100% 61%, 100% 100%, 0% 100%);   
+    border: 1px solid grey;
+  
 }
 .water1{
     
@@ -74,9 +75,10 @@ body {
     font-family: "Bespoke", sans-serif;
     font-weight: 400;
     font-style: normal;
-    transition: color 250ms ease;
     cursor: pointer;
-    transition: -webkit-box-reflect 250ms;
+    transition: -webkit-box-reflect 250ms ease;
+    transition: color 250ms ease;
+    transition: text-shadow 250ms ease;
 }
 .on:active {
     color:#FFC90A ;
