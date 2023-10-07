@@ -30,7 +30,7 @@ body {
 }
 .water {
     
-   
+    position: relative;
     font-size: 100px;
     color: transparent;
     font-family: 'Antonio', sans-serif;
@@ -41,6 +41,7 @@ body {
     
     color: #0A89FF;  
     animation: animate 3s ease-out; 
+    
 }
 @keyframes animate
 /* used css clippy website to make the path for the water */
