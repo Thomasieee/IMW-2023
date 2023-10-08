@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+     height: 100vh;
+     background: linear-gradient( 135deg, #0067C7, #D1DEFF);
+     cursor: pointer
+     
+}
+.look1{
+    position: relative;
+    top: 30%;  
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    font-family: "winco", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    
+
+}
+.look2{
+    
+    position: relative;
+    text-align: center;
+    top: 14%;
+    color:white;
+    font-size: 50px;
+    font-family: "winco", sans-serif;
+    font-weight: 900;
+}

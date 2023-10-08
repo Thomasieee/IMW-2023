@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:100vh;
+    background: linear-gradient( 135deg, #02407A, #D68383);
+
+}
+p{
+    width: 500px;
+    position: relative;
+    top: 25rem;
+    left: 80rem;
+    color:white;
+    font-size: 30px;
+    font-family: "winco", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content:center;
+ }
+.cloud{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: white;
+    border-radius: 100px / 50px;
+}
+
