@@ -3,31 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: #BEBEBE;
     font-family: Helvetica, sans-serif;
     height: 180vh;
-   
-    
-
 }
-
 a{
     text-decoration: none;
     cursor: pointer;
     color: #4D4D4D;
 }
-
-
 ul {
     list-style: none;
 }
 ul li{
-    display:inline;
-    
+    display:inline;   
 }
-
 header{
     padding-left: 100px;
     position: absolute;
@@ -38,7 +29,6 @@ main{
     position: relative;
     width:85%;
     transform: translate(0,37vh);
-    
 }
 footer{
     width: 80%;
@@ -47,10 +37,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-   
-    
-    
 }
 
 .maria{
@@ -58,16 +44,10 @@ footer{
     width: 85%;
     font-size: 160px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   
     padding-top: 50px;
-    
     text-transform: uppercase;
-    color: #FFF300;
-    
-    
+    color: #FFF300;  
 }
-
-
 .theone{
 
     font-size: 60px;
@@ -80,8 +60,6 @@ footer{
     line-height: 50px;
 }
 .yellow{
-    
-
     position: fixed;
     width: 15%;
     min-height: 100vh;
@@ -91,7 +69,6 @@ footer{
     
     
 }
-
 .cad{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -100,13 +77,9 @@ footer{
    
     text-transform: uppercase;
     transition: font-size  0.4s ease;
-   
 }
-
 .cad:hover{
     font-size: 50px;
-
-
 }
 .contact{
     float: right;
@@ -117,8 +90,6 @@ footer{
     transform: translate(10px, 80vh);
     cursor: pointer;
    }
-   
-
 .top{
 
     font-size: 30px;
@@ -136,10 +107,6 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #FFF300;
     text-align: left ;
-    
-   
-
-
 }
 
 .mid{
@@ -153,21 +120,15 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: left ;
-    
-    
-
 }
-
 .stripes
 {
-
     height: 80vh;
     width: 450px;
     background: repeating-linear-gradient( to left, #FFF300, #FFF300 15px, transparent 18px, transparent 35px );
     margin-left: -10px;
     margin-top: 10px;
 }
-
 .vertical{
 
     font-size: 15px;
@@ -179,32 +140,24 @@ footer{
     font-weight: bold;
     padding-left: 10px;
     padding-top: 10px;
-
 }
-
 .heading{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 30px;
     color: #FFF300;
-
-
 }
 .content{
     font-size: 20px;
 }
-
-
 .end{
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 15px;
     font-family:  Helvetica, Arial, sans-serif;
     color: #4D4D4D;
     transform: translate(0,36vh);
     padding-bottom: 70px;
-  
 }
-
 span{
     color: #FFF300;
     font-style: italic ;
@@ -221,19 +174,12 @@ span{
     margin-top: 23%;
     height: 80px;
     width:200px;
-    border-radius: 10px;
     text-align: center;
     transition: color 0.4s ease;
     transition: background-color 0.4s ease;
-    
-    
-    
 }
-
 .know:hover{
     color: #FFF300;
     background-color: #4D4D4D;
-    
-
 }
 
