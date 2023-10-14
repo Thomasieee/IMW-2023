@@ -6,7 +6,7 @@
 body{
     background: #BEBEBE;
     font-family: Helvetica, sans-serif;
-    height: 170vh;
+    height: 173vh;
 }
 a{
     text-decoration: none;
@@ -73,7 +73,7 @@ footer{
     min-height: 100vh;
     background-color: #FFF300;
     padding: 30px;
-    transform: translate(158vh,0);
+    transform: translate(157.5vh,-6vh);
 }
 /* canadian culture on yellow panel */
 .cad{
@@ -91,6 +91,7 @@ footer{
 
 /* links on yellow panel */
 .contact{
+    
     float: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15px;
