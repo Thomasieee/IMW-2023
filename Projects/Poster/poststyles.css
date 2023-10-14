@@ -6,7 +6,7 @@
 body{
     background: #BEBEBE;
     font-family: Helvetica, sans-serif;
-    height: 180vh;
+    height: 170vh;
 }
 a{
     text-decoration: none;
@@ -38,16 +38,23 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
+/* the biggest font */
 .maria{
 
     width: 85%;
-    font-size: 160px;
+    font-size: 150px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 50px;
     text-transform: uppercase;
     color: #FFF300;  
+    transition: text-shadow 0.4s ease;
 }
+
+.maria:hover{
+    text-shadow: 0 0 10px #FFF300; 
+    
+}
+/* the second  biggest font */
 .theone{
 
     font-size: 60px;
@@ -59,6 +66,7 @@ footer{
     padding-top: 30px;
     line-height: 50px;
 }
+/* side yellow panel */
 .yellow{
     position: fixed;
     width: 15%;
@@ -66,9 +74,8 @@ footer{
     background-color: #FFF300;
     padding: 30px;
     transform: translate(158vh,0);
-    
-    
 }
+/* canadian culture on yellow panel */
 .cad{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -81,6 +88,8 @@ footer{
 .cad:hover{
     font-size: 50px;
 }
+
+/* links on yellow panel */
 .contact{
     float: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -90,6 +99,7 @@ footer{
     transform: translate(10px, 80vh);
     cursor: pointer;
    }
+   /* main start */
 .top{
 
     font-size: 30px;
@@ -101,6 +111,7 @@ footer{
     font-weight: bold;
     
 }
+
 .sept{
 
     font-size: 25px;
@@ -129,6 +140,7 @@ footer{
     margin-left: -10px;
     margin-top: 10px;
 }
+/* vertical content */
 .vertical{
 
     font-size: 15px;
@@ -141,6 +153,7 @@ footer{
     padding-left: 10px;
     padding-top: 10px;
 }
+
 .heading{
     font-weight: bold;
     text-transform: uppercase;
@@ -150,6 +163,7 @@ footer{
 .content{
     font-size: 20px;
 }
+/* main end footer start */
 .end{
     padding-top: 50px;
     font-size: 15px;
@@ -162,6 +176,7 @@ span{
     color: #FFF300;
     font-style: italic ;
 }
+/* know more */
 .know {
     display: flex;
     justify-content: center;
