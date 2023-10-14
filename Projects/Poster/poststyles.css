@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #BEBEBE;
+    font-family: Helvetica, sans-serif;
+    height: 180vh;
+   
+    
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #4D4D4D;
+}
+
+
+ul {
+    list-style: none;
+}
+ul li{
+    display:inline;
+    
+}
+
+header{
+    padding-left: 100px;
+    position: absolute;
+    width: 85%;
+}
+main{
+    padding-left: 100px;
+    position: relative;
+    width:85%;
+    transform: translate(0,37vh);
+    
+}
+footer{
+    width: 80%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+}
+
+.maria{
+
+    width: 85%;
+    font-size: 160px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    padding-top: 50px;
+    
+    text-transform: uppercase;
+    color: #FFF300;
+    
+    
+}
+
+
+.theone{
+
+    font-size: 60px;
+    font-family: "courage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    padding-top: 30px;
+    line-height: 50px;
+}
+.yellow{
+    
+
+    position: fixed;
+    width: 15%;
+    min-height: 100vh;
+    background-color: #FFF300;
+    padding: 30px;
+    transform: translate(158vh,0);
+    
+    
+}
+
+.cad{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #4D4D4D;
+   
+    text-transform: uppercase;
+    transition: font-size  0.4s ease;
+   
+}
+
+.cad:hover{
+    font-size: 50px;
+
+
+}
+.contact{
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: #4D4D4D;
+    text-align: right ;
+    transform: translate(10px, 80vh);
+    cursor: pointer;
+   }
+   
+
+.top{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF300;
+    text-align: left ;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.sept{
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF300;
+    text-align: left ;
+    
+   
+
+
+}
+
+.mid{
+    display: flex;
+    width: 100%;
+}
+.bot{
+    height: 30vh;
+    flex-direction: row;
+    transform: translate(-5vh, 57vh);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left ;
+    
+    
+
+}
+
+.stripes
+{
+
+    height: 80vh;
+    width: 450px;
+    background: repeating-linear-gradient( to left, #FFF300, #FFF300 15px, transparent 18px, transparent 35px );
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.vertical{
+
+    font-size: 15px;
+    writing-mode: vertical-lr;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF300;
+    text-align: left ;
+    display: inline;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #FFF300;
+
+
+}
+.content{
+    font-size: 20px;
+}
+
+
+.end{
+    padding-top: 50px;
+    font-size: 20px;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: #4D4D4D;
+    transform: translate(0,36vh);
+    padding-bottom: 70px;
+  
+}
+
+span{
+    color: #FFF300;
+    font-style: italic ;
+}
+.know {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  Helvetica, Arial, sans-serif;
+    color:#4D4D4D;
+    background-color:   #FFF300;
+    margin-top: 23%;
+    height: 80px;
+    width:200px;
+    border-radius: 10px;
+    text-align: center;
+    transition: color 0.4s ease;
+    transition: background-color 0.4s ease;
+    
+    
+    
+}
+
+.know:hover{
+    color: #FFF300;
+    background-color: #4D4D4D;
+    
+
+}
+
