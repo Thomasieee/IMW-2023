@@ -69,11 +69,11 @@ footer{
 /* side yellow panel */
 .yellow{
     position: fixed;
-    width: 15%;
+    width: 16%;
     min-height: 100vh;
     background-color: #FFF300;
     padding: 30px;
-    transform: translate(157.5vh,-6vh);
+    transform: translate(159vh,-6vh);
 }
 /* canadian culture on yellow panel */
 .cad{
@@ -153,6 +153,10 @@ footer{
     font-weight: bold;
     padding-left: 10px;
     padding-top: 10px;
+    transition: color 0.4s ease;
+}
+.vertical:hover{
+    color: #4D4D4D;
 }
 
 .heading{
