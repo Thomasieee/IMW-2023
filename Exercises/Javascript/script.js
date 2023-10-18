@@ -63,11 +63,16 @@ setInterval(increasesize, 1000);
 let typed = document.querySelector('#inputText');
 let ebox = document.querySelector('#form');
 let length = document.querySelector('#text-length');
+let submit = document.querySelector('#submit');
 
-ebox.addEventListener("submit", function (e)){
-    this.innerHTML = this.innerHTML.length;
+submit.addEventListener("click", function () {
+
+   event.preventDefault();
+    length.innerHTML = this.innerHTML.length;
+    console.log(this.innerHTML.length);
+
     
-}
+})
 
 //Console
 
