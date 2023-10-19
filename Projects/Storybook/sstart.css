@@ -8,10 +8,11 @@
 body{
      height: 100vh;
      background: linear-gradient( 135deg, #0067C7, #D1DEFF);
-     cursor: pointer;
-     
+     cursor: pointer; 
+     display: flex;
+     justify-content: center;
 }
-.look1{
+h1{
   
     position: relative;
     top: 30%;  
@@ -21,17 +22,29 @@ body{
     font-family: "winco", sans-serif;
     font-weight: 900;
     font-style: normal;
-    
-    
-
 }
-.look2{
+p{
 
     position: relative;
     text-align: center;
-    top: 14%;
+    top: 10%;
     color:white;
     font-size: 50px;
     font-family: "winco", sans-serif;
     font-weight: 900;
 }
+small{
+    top: 25rem;
+    left: 2rem;
+    width: 500px;
+    position: relative;   
+    color: #DFDFDF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+   
+ }
+ 

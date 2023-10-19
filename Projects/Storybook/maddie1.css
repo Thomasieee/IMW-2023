@@ -1,21 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
+body{
+ 
+   background: linear-gradient(135deg, #02407A, #D68383);
+   background-size: 230% 100%; 
+  
+    
+}
 .container{
-    min-height: 100vh;
-    width: 200%;
-    background: linear-gradient( 135deg, #02407A, #D68383);
-   
+
 }
 p{
-    width: 500px;
+    width:300px;
     position: relative;
-    top: 25rem;
-    left: 80rem;
+    top: 22rem;
+    left: 70rem;
     color:white;
-    font-size: 30px;
+    font-size: 18px;
     font-family: "winco", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -25,12 +31,13 @@ p{
  }
 
 h1{
-    width: 500px;
+    width: 350px;
     position: relative;
-    top: 17rem;
-    left: 195rem;
+    top: 13rem;
+    left: 170rem;
+    margin-right: 20px;
     color: white;
-    font-size: 30px;
+    font-size: 18px;
     font-family: "winco", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -40,7 +47,7 @@ h1{
 
 .click{
     top: 39rem;
-    left: 159rem;
+    left: 150rem;
     width: 500px;
     position: relative;   
     color: #DFDFDF;
@@ -52,8 +59,8 @@ h1{
     text-transform: uppercase; 
  }
 .scroll{
-    top: 47rem;
-    left:40rem;
+    top: 40rem;
+    left:32rem;
     width: 500px;
     position: relative;   
     color: #DFDFDF;
@@ -196,15 +203,16 @@ h1{
 
  }
  .smile{
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background: transparent;
-    border-radius: 50%;
-    border: 4px solid transparent;
-    border-left: 4px solid #473636;
-    border-bottom: 4px solid #473636;
-    transform: translate(6.2vh,-2vh) rotate(135deg);
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   background: transparent;
+   border-radius: 50%;
+   border: 4px solid transparent;
+   border-left: 4px solid #473636;
+   border-bottom: 4px solid #473636;
+   transform: translate(4.2rem,-1.5rem) rotate(135deg);
+
 
 
 }
