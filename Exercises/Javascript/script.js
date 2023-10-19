@@ -54,28 +54,24 @@ function increasesize() {
         text.style.fontSize = size + "px";
     }
     else if (size = 100) {
-       let size = 20;
+       size = 20;
     }   
 }
 setInterval(increasesize, 1000);
 
 //Display number of character
 let typed = document.querySelector('#inputText');
-let ebox = document.querySelector('#form');
-let length = document.querySelector('#text-length');
 let submit = document.querySelector('#submit');
+let tlength = document.querySelector('#text-length')
 
 submit.addEventListener("click", function () {
+    event.preventDefault();
+    const alphanum = typed.value.length;
+    tlength.innerText = alphanum;
+});
 
-   event.preventDefault();
-    length.innerHTML = this.innerHTML.length;
-    console.log(this.innerHTML.length);
-
-    
-})
 
 //Console
-
 console.log("This was .....");
 
 
