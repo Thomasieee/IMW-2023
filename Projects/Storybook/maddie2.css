@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-.container{
+body{
     min-height: 100vh;
     width: 100vw;
     background: linear-gradient( 135deg, #02407A, #D68383);
 }
-
+/* bottom note */
 .click{
     top: 40rem;
     left:32rem;
@@ -22,31 +22,28 @@
     text-align: center;
     text-transform: uppercase; 
 }
-
+/* stroy line */
 p{
-    width: 350px;
-    position: relative;
-    top: 22rem;
-    left: 70rem;
-    color:white;
-    font-size: 18px;
-    font-family: "winco", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
+   width: 350px;
+   position: relative;
+   top: 22rem;
+   left: 70rem;
+   color:white;
+   font-size: 18px;
+   font-family: "winco", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   text-align: center;
+   text-transform: uppercase;  
     
  }
- .thun1{
-    
+ /* thunder shape */
+.thun1{   
     position: relative;
-    top: -27rem;
+    top: 17rem;
     right: 80rem;
-    
-    
-
-    
 }
+ /* thunder shape */
 .thun1::before{
    content: "";
     width: 0;
@@ -59,6 +56,7 @@ p{
     
     
 }
+ /* thunder shape */
 .thun1::after{
     content: "";
     width: 0;
@@ -70,67 +68,58 @@ p{
     position: absolute;
     transform: rotate(20deg);
 }
-
+/* position of the cloud */
  .pos{
     position: fixed;
     left: 10%;
     top: 40%;
     cursor: pointer;
     transition: transform 0.2s ease;
-    
  }
+ /* center shape */
  .cloud{
-    
     position: absolute;
     top: -10%;
-    
     width: 150px;
     height: 100px;
     background: #6D615F;
     border-radius: 50%;
-    
  }
-
+/* cloud side shape */
  .cloud::before{
     content: "";
     position: absolute;
     left: -52%;
-    
     width: 120px;
     height: 120px;
     background: #6D615F;
     border-radius: 50%;
-
  }
+ /* cloud side shape */
  .cloud::after{
     content: "";
     position: absolute;
     left: 80%;
-   
     width: 120px;
     height: 120px;
     background: #6D615F;
     border-radius: 50%;
-
  }
+  /* cloud bottom shape */
  .c-base{
     position: relative;
     left:-25%;
     transform: translate(0,35%);
-    
     width: 320px;
     height: 130px;
     background: #6D615F;
     border-radius: 50% / 50%;
-
  }
  .pos:active{
 
     transform: translate(0,-10vh);
-    
  }
-
- 
+/* first eye */ 
  .eye1{
     left: 12%;
     top: 50%;
@@ -138,11 +127,9 @@ p{
     width: 24px;
     height: 32px;
     background: #473636;
-    border-radius: 50%;
-    
-
-    
+    border-radius: 50%;  
  }
+ /* white eye reflection */
  .eye1::before{
     content: "";
     position: absolute;
@@ -154,6 +141,7 @@ p{
     border-radius: 50%;
 
  }
+  /* cheecks */
  .eye1::after{
     content: "";
     position: absolute;
@@ -166,7 +154,7 @@ p{
     transform: rotate(90deg);
 
  }
-
+/* second eye */
  .eye2{
     left: 27%;
     top: 50%;
@@ -175,10 +163,8 @@ p{
     height: 32px;
     background: #473636;
     border-radius: 50%;
-    
-
-    
  }
+  /* white eye reflection */
  .eye2::before{
     content: "";
     position: absolute;
@@ -190,6 +176,7 @@ p{
     border-radius: 50%;
 
  }
+  /* cheecks */
  .eye2::after{
     content: "";
     position: absolute;
@@ -200,8 +187,8 @@ p{
     background: #C87E82;
     border-radius: 50%;
     transform: rotate(90deg);
-
  }
+  /* mouth */
  .smile{
     position: absolute;
     width: 15px;
@@ -212,9 +199,8 @@ p{
     border-left: 4px solid #473636;
     border-bottom: 4px solid #473636;
     transform: translate(3.9rem,-1.5rem) rotate(135deg);
-
-
 }
+/* eye brows */
 .angry{
     position: absolute;
     width: 25px;
@@ -223,10 +209,8 @@ p{
     border: 4px solid transparent;
     border-bottom: 4px solid #473636;
     transform: translate(2.5rem,-6rem) rotate(20deg);
-
-
 }
-
+ /* mouth */
 .angry::before{
     content: "";
     position: absolute;
@@ -236,15 +220,11 @@ p{
     border: 4px solid transparent;
     border-bottom: 4px solid #473636;
     transform: translate(3.2vh,-1.7vh) rotate(-40deg);
-
-
 }
+/* next button */
 .next{
     position: absolute;
-    
-   
     border-left: 40px solid white;
     border-bottom: 40px solid transparent;
-    transform: translate(175vh, -90vh) rotate(135deg);;
-    
+    transform: translate(90rem, 0rem) rotate(135deg);;  
 }

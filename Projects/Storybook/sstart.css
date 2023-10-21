@@ -23,6 +23,7 @@ h1{
     font-weight: 900;
     font-style: normal;
 }
+/* THE */
 p{
 
     position: relative;
@@ -33,12 +34,13 @@ p{
     font-family: "winco", sans-serif;
     font-weight: 900;
 }
+/* bottom note */
 small{
     top: 25rem;
-    left: 2rem;
+    left: 1rem;
     width: 500px;
     position: relative;   
-    color: #DFDFDF;
+    color: #ffffff;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;

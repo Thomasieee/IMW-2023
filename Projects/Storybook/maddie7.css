@@ -13,7 +13,7 @@ body{
    align-items: center;
    
  }
- /* header */
+ /* storyline */
 p{
    width: 350px;
    position: relative;
@@ -77,10 +77,6 @@ p{
    height: 50.4px;
    background: #473636;
    border-radius: 50%;
-   
-    
-
-    
  }
  .eye1::before{
    content: "";
@@ -91,8 +87,6 @@ p{
    height: 15.5px;
    background: white;
    border-radius: 50%;
-
-   
  }
  .eye1::after{
    content: "";
@@ -104,8 +98,6 @@ p{
    background: #FFD2D5;
    border-radius: 50%;
    transform: rotate(90deg);
-   
-
  }
 
  .eye2{
@@ -116,10 +108,6 @@ p{
    height: 50.4px;
    background: #473636;
    border-radius: 50%;
-   
-    
-
-    
  }
  .eye2::before{
    content: "";
@@ -130,7 +118,6 @@ p{
    height: 15.5px;
    background: white;
    border-radius: 50%;
-  
 
  }
  .eye2::after{
@@ -143,8 +130,6 @@ p{
    background: #FFD2D5;
    border-radius: 50%;
    transform: rotate(90deg);
-   
-
  }
  .smile{
    position: absolute;
@@ -157,7 +142,7 @@ p{
    border-bottom: 4px solid #473636;
    transform: translate(5.5rem,-3rem) rotate(-45deg);
 }
-/* footer */
+/* bottom note */
 small{
    top: 37rem;
    width: 500px;
@@ -181,7 +166,7 @@ small{
    
 }
 
-
+/* background clouds */
 .friend1{
    position: absolute   ;
    left: 25%;
@@ -399,7 +384,7 @@ small{
    background:#D2B3B3;
    transform: translate(5.5rem,-3rem) ;
 }
-
+/* sun */
 .sun{
    position: absolute;
    left: 30%;
@@ -425,11 +410,6 @@ small{
    background: #473636;
    border-radius: 50%;
    transform: translate(19rem, 2rem) rotate(20deg);
-   
-   
-    
-
-    
  }
  .eyec1::before{
    content: "";
@@ -440,14 +420,7 @@ small{
    height: 15.5px;
    background: white;
    border-radius: 50%;
-
-   
  }
- 
-   
-
-
-
  .eyec2{
    left: 27%;
    top: 50%;
@@ -457,10 +430,6 @@ small{
    background: #473636;
    border-radius: 50%;
    transform: translate(18rem, 3rem) rotate(20deg);
-   
-    
-
-    
  }
  .eyec2::before{
    content: "";
@@ -471,7 +440,4 @@ small{
    height: 15.5px;
    background: white;
    border-radius: 50%;
-  
-
  }
- 

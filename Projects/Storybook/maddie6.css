@@ -4,13 +4,12 @@
     text-decoration: none;
 }
 
-.container{
+body{
     min-height: 100vh;
     width: 100vw;
     background: linear-gradient( 135deg, #AAEBFF, #007DC3);
 }
-
-
+/* stroy line */
 p{
    width: 350px;
    position: relative;
@@ -24,62 +23,56 @@ p{
    text-align: center;
    text-transform: uppercase;  
  }
- 
+/* position of the cloud */ 
  .pos{
     position: fixed;
     left: 10%;
     top: 40%;
-    
     transition: transform 0.2s ease;
-    
  }
+   /* center shape */
  .cloud{
     
     position: absolute;
     top: -10%;
-    
     width: 195px;
     height: 130px;
     background: #FFFAFA;
     border-radius: 50%;
-    
  }
-
+/* cloud side shape */
  .cloud::before{
     content: "";
     position: absolute;
     left: -52%;
-    
     width: 156px;
     height: 156px;
     background: #FFFAFA;
     border-radius: 50%;
 
  }
+  /* cloud side shape */
  .cloud::after{
     content: "";
     position: absolute;
     left: 80%;
-   
     width: 156px;
     height: 156px;
     background: #FFFAFA;
     border-radius: 50%;
-
  }
+   /* cloud bottom shape */
  .c-base{
     position: relative;
     left:-25%;
     transform: translate(0,35%);
-    
     width: 416px;
     height: 169px;
     background: #FFFAFA;
     border-radius: 50% / 50%;
-
  }
  
- 
+  /* first eye */
  .eye1{
     left: 12%;
     top: 50%;
@@ -88,10 +81,8 @@ p{
     height: 50.4px;
     background: #473636;
     border-radius: 50%;
-    
-
-    
  }
+    /* white eye reflection */
  .eye1::before{
     content: "";
     position: absolute;
@@ -103,6 +94,7 @@ p{
     border-radius: 50%;
 
  }
+  /* cheecks */
  .eye1::after{
     content: "";
     position: absolute;
@@ -113,9 +105,8 @@ p{
     background: #FFD2D5;
     border-radius: 50%;
     transform: rotate(90deg);
-
  }
-
+  /* second eye */
  .eye2{
     left: 27%;
     top: 50%;
@@ -124,9 +115,6 @@ p{
     height: 50.4px;
     background: #473636;
     border-radius: 50%;
-    
-
-    
  }
  .eye2::before{
     content: "";
@@ -149,7 +137,6 @@ p{
     background: #FFD2D5;
     border-radius: 50%;
     transform: rotate(90deg);
-
  }
  .smile{
    position: absolute;
