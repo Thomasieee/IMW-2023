@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // add class of buttons
-  for (let step = 0; step < 255; step++) {
+  for (let step = 0; step < 143; step++) {
     let blocks = $('<button class="color-button">CLICK</button>');
     blocks.width(100).height(50);
     blocks.css({

@@ -9,7 +9,7 @@ body {
 /* defining the size of the button container area */
 .button-container {
   display: grid;
-  grid-template-columns: repeat(17, 100px);
+  grid-template-columns: repeat(13, 100px);
   grid-gap: 10px;
   justify-content: center;
 }
@@ -19,12 +19,12 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   position: relative;
   font-family: Helvetica, sans-serif;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 30px;
   text-transform: uppercase;
 }
