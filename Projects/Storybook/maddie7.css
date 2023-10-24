@@ -157,14 +157,14 @@ small {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    #3480ab 20%,
-    #70ab34 20%,
-    #70ab34 40%,
-    #ffa51f 40%,
-    #ffa51f 60%,
-    #e84e1d 60%,
-    #e84e1d 80%,
-    #c52e2e 80%,
+    #3480ab 16%,
+    #70ab34 16%,
+    #70ab34 32%,
+    #ffa51f 32%,
+    #ffa51f 48%,
+    #ff6637 48%,
+    #ff6637 64%,
+    #c52e2e 64%,
     #c52e2e 100%
   );
   transform: translate(-1rem, 8rem);
