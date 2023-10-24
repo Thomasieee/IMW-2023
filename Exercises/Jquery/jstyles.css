@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  transition: background-color 0.4s;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(17, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+.invisible {
+  height: 0 !important;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-transform: uppercase;
+}
