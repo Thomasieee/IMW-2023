@@ -1,0 +1,92 @@
+body {
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  font-size: clamp(32px, 10vw, 70px);
+}
+img {
+  display: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+}
+.face {
+  background-color: peachpuff;
+  height: 100px;
+  width: 10%;
+  padding: 5vw;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.eyes {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 4px;
+}
+.hbody {
+  background-color: lightseagreen;
+  height: 300px;
+  width: 30%;
+  padding: 5vw;
+  border-radius: 10%;
+}
+.pant {
+  background: rgb(42, 42, 42);
+  height: 700px;
+  width: 30%;
+  padding: 5vw;
+  border-radius: 10%;
+}
+.fcontainer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.feet {
+  background-color: black;
+  height: 30px;
+  width: 200px;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+@media (max-height: 400px) {
+  body {
+    background: red;
+  }
+  h1 {
+    color: white;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: blue;
+  }
+
+  h1 {
+    display: none;
+  }
+  img {
+    display: block;
+  }
+}
