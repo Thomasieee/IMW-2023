@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: center;
   margin-left: 10%;
+  margin-top: 50px;
   align-items: center;
   height: 100vh;
   background-color: #045686;
@@ -19,8 +20,11 @@ body {
 }
 h1 {
   color: white;
-  font-size: 2rem;
-  font-family: Helvetica, Arial, ssans-serif;
+  font-size: 4rem;
+  font-family: "Antonio", sans-serif;
+  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "VT323", monospace;
   font-weight: 600;
 }
 
