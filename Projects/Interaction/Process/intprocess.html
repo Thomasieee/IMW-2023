@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-zoom:1.0">
+    <meta charset="utf-8">
+    <title>Interaction Process</title>
+    <style>
+        /* Move all CSS to a stylesheet */
+        * {
+            /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 100px;
+            /* Add spacing around the entire page */
+            font-size: 12px;
+            /* Setting baseline font size */
+        }
+
+        /* Start of text sizes */
+        h1 {
+            font-size: 4em;
+        }
+
+        h2 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+
+        a {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+
+        figcaption {
+            font-size: 1.25em;
+        }
+
+        /* End of text sizes */
+
+        /* Start of spacing and layout */
+        h2,
+        p,
+        figure,
+        figcaption {
+            margin-bottom: 40px;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        .process-template {
+            width: 40%;
+            /* Set the width of the template to 60% of the viewport. */
+            margin: auto;
+            /* Center align the template by adding auto margins to the left and right */
+        }
+
+        .title {
+            margin-bottom: 100px;
+            /* Add spacing to the bottom of the title div */
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+
+        /* End of spacing and layout */
+
+        /* Adding media queries for page to adapts to tablet and mobile devices */
+        @media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+
+            .process-template {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="HIDE / SHOW interaction process">
+            <h1>Keyboard Tetris - Process</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>Research</h2>
+                <p>
+                    I first discovered the story behind the interactive tool we all use daily: the keyboard. I learned
+                    how the QWERTY layout evolved and how it significantly contributed to the growth of information
+                    technology and data management. Later, I stumbled upon an intriguing video discussing how
+                    non-English-speaking regions felt somewhat excluded due to keyboards primarily catering to the
+                    English language. The video shed light on China's perspective, expressing concerns about being left
+                    behind due to foreign language keyboards.
+
+                    However, the video also highlighted China's innovative solution to this challenge. They leveraged
+                    this obstacle to their advantage and developed their own method. They introduced the Pinyin system,
+                    championed by Chairman Mao, which transformed their situation. This adaptation might have made
+                    Chinese typists among the fastest in the world today, revolutionizing China's future in keyboard
+                    typing
+                </p>
+                <br>
+                <a href="https://www.youtube.com/watch?v=hBDwXipHykQ">CLICK TO WATCH VIDEO</a>
+                <br>
+
+            </div>
+            <!-- End of a section -->
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Brainstorming</h2>
+                <p>
+                    The study of keyboard gave me multiple ideas of how typing can be used to play a game.
+                </p>
+                <br>
+                <p>1. Spaceship shooter:
+                    I was on the verge of starting an exciting project I really liked. The concept was to create a game
+                    featuring a spaceship tasked with shooting asteroids by typing the words displayed on them. Each
+                    asteroid would carry a random word, and typing it in time would destroy the asteroid. While I was
+                    researching and browsing the internet for inspiration, I unexpectedly found the exact game I had in
+                    mind. Initially, I felt relieved, thinking my idea was feasible, but I lost interest in pursuing it
+                    further because someone else had already developed it
+                </p>
+
+                <a href=" https://zty.pe/ ">ZTYPE</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p> 2. Rocket type:
+                    I had an idea involving typing skills, where speed typing would control a rocket's flight to space.
+                    If you couldn't type fast enough, the rocket would lose balance and crash. While exploring, I
+                    discovered a similar concept where users typed a paragraph swiftly to move a car to the finish line.
+                    What caught my attention was the website's live racing feature where 3-4 players could join and race
+                    together
+                </p>
+
+                <a href=" https://play.typeracer.com/ ">Type racer</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>3. Type Keybord:
+
+                    My plan was to generate sounds corresponding to each key pressed while typing. I intended to use a
+                    single line of letters on the keyboard to replicate the entire keyboard's functionality
+                </p>
+
+                <a href=" https://zty.pe/ ">Type Drummer</a>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+
+
+            <div class="section">
+                <h2>Keyboard TETRIS - final idea</h2>
+                <p>
+                    I envisioned a scenario where the user had to type the text showcased in each falling rectangle
+                    before it reached the ground. As time progressed, the speed of these falling rectangles would
+                    increase, raising the challenge until they reached the top of the container. Successfully typing a
+                    word would eliminate the respective rectangle and contribute to the player's score. It was an
+                    effective way to showcase typing speed and accuracy. </p>
+                <br>
+                <br>
+
+                <p>I was more drawn to this concept as it involved play and interaction, and it seemed unique since I
+                    couldn't find anything similar to the Tetris idea. I began by creating a basic black and white
+                    container with rectangles stacking on top of each other.
+                </p>
+
+                <img src="p1.PNG" alt="process1" width="700px">
+                <br>
+                <br>
+                <p>I then added few random words on each falling rectangles and executed the typing and disappearing
+                    maethod. But i was facing a lot of trouble
+                    since the disappearing rectangles where creating gaps while stacking up. After multiple trial and
+                    error mentods I was able to get around the problem
+                </p>
+                <img src="p2.PNG" alt="process2" width="700px">
+                <br>
+                <br>
+                <p>After showcasing the skelon model of the game(shown in the picture above) to Prof Ha, I was asked to
+                    try using matter.js.
+                    It was quite an intresting library to play around with. But unfortunately I wass not able to add
+                    words within the individual rectangles.
+                    i even tried to take help from ChatGPT but was unable to find a solution to this. I then went back
+                    to the original idea on creating rectangles without matter.js</p>
+
+                <br>
+                <br>
+
+                <h2>The Code</h2>
+                <p>All in all, the code was time cosuming to get the physics part right without using the matter.js
+                    library. But it was definelty fun and intresting, always
+                    learned new things, of using flags, siplay hide,figuring out logics and understanding math.random
+
+
+                </p>
+
+                <img src="final.PNG" alt="process3" width="700px">
+                <img src="final2.PNG" alt="process4" width="700px">
+
+                <br>
+                <br>
+
+
+
+
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+</body>
+
+</html>
