@@ -86,7 +86,7 @@ $(document).ready(function () {
       friction: 0.1,
       restitution: 0.4,
       render: {
-        // fillStyle: "#000", // Set the fill color of the rectangle to black
+        fillStyle: "#000", // Set the fill color of the rectangle to black
         text: "Test",
         color: "white",
         size: 15,
@@ -103,7 +103,7 @@ $(document).ready(function () {
     textSvg.setAttribute("text-anchor", "middle");
     textSvg.setAttribute("dominant-baseline", "central");
     textSvg.textContent = randomWord;
-    textSvg.style.fill = "#ffffff"; // Text color
+    textSvg.style.fill = "#ff0000"; // Text color
 
     container.appendChild(textSvg);
 
