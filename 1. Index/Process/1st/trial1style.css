@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, red 25%, white 25%, white 50%, red 50%);
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border: 4px solid black;
+}
+.duckright {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}

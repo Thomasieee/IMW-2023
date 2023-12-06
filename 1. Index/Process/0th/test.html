@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Linear Motion Circles</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            top: 50px;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle" id="circle1"></div>
+    <div class="circle" id="circle2"></div>
+
+    <script>
+        const circle1 = document.getElementById('circle1');
+        const circle2 = document.getElementById('circle2');
+        let posX1 = 0;
+        let posX2 = 100;
+
+        function moveCircles() {
+            // Increment position
+            posX1 += 1;
+            posX2 += 1;
+
+            // Set new position
+            circle1.style.left = posX1 + 'px';
+            circle2.style.left = posX2 + 'px';
+
+            // Reset position if circles reach the end
+            if (posX1 >= window.innerWidth) {
+                posX1 = -50;
+            }
+            if (posX2 >= window.innerWidth) {
+                posX2 = -50;
+            }
+
+            // Repeat motion
+            requestAnimationFrame(moveCircles);
+        }
+
+        moveCircles();
+    </script>
+</body>
+
+</html>
