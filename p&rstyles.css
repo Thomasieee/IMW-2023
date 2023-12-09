@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  height: 200vh;
+  padding-left: 70px;
+  background-color: grey;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  padding-top: 10vh;
+  text-decoration: underline;
+}
+
+.sunhead {
+  font-size: 30px;
+
+  margin-top: 20px;
+}
+
+p {
+  width: 100%;
+}
+.photoset1 {
+  width: 500px;
+}

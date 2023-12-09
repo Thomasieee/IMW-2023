@@ -4,7 +4,8 @@ body {
   overflow: hidden;
   box-sizing: border-box;
   background-color: teal;
-  cursor: url("gunpoint.png"), pointer;
+
+  height: 100vh;
 }
 
 .maincontainer {
@@ -19,7 +20,7 @@ body {
 .cont2,
 .cont3 {
   width: auto;
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: space-between;
   padding: 10px 10px;
@@ -83,9 +84,9 @@ p {
 .curtains {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+
   position: absolute;
-  width: 100%;
+  width: 101%;
   top: 0;
 }
 
@@ -93,15 +94,45 @@ p {
 .curtain2 {
   width: auto;
   z-index: 10;
-
-  /* Add more specific styles for spacing and positioning */
+}
+.curtaintop,
+.baner {
+  position: absolute;
+  width: auto;
+  z-index: 11;
 }
 h1 {
-  font-size: 100px;
-
-  color: yellow;
+  font-size: 90px;
+  color: rgb(255, 191, 0);
   font-family: "rosewood-std", sans-serif;
   font-weight: 400;
   font-style: normal;
   bottom: 200px;
+  z-index: 200;
+  height: 100px;
+  top: 4%;
+  left: 40%;
+  position: absolute;
+}
+h1:hover {
+  text-shadow: 0 0 50px #fff300;
+}
+.baner {
+  left: 37%;
+}
+
+@media (max-width: 991px) {
+  .process-template {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 40px;
+    font-size: 10px;
+  }
+  .process-template {
+    width: 100%;
+  }
 }

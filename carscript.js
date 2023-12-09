@@ -1,3 +1,6 @@
+const audio = new Audio("carnival.mp3");
+audio.play();
+
 const duckR1 = document.getElementById("duckright1");
 const circle1 = document.getElementById("circle1");
 const duckR2 = document.getElementById("duckright2");
