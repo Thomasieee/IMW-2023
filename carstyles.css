@@ -8,6 +8,14 @@ body {
   height: 100vh;
 }
 
+@font-face {
+  font-family: "Bespoke";
+  src: url("fonts/Bespoke-rgHFRhKYlZ.eot");
+  src: url("fonts/Bespoke-rgHFRhKYlZ.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Bespoke-rgHFRhKYlZ.woff") format("woff"),
+    url("fonts/Bespoke-rgHFRhKYlZ.ttf") format("truetype"),
+    url("fonts/Bespoke-rgHFRhKYlZ.svg#Bespoke-rgHFRhKYlZ") format("svg");
+}
 .maincontainer {
   position: relative;
   width: auto;
@@ -50,6 +58,7 @@ body {
 }
 
 p {
+  font-family: "Bespoke", sans-serif;
   font-size: 30px;
   position: absolute;
   background: beige;
@@ -120,19 +129,13 @@ h1:hover {
 .baner {
   left: 37%;
 }
-
-@media (max-width: 991px) {
-  .process-template {
-    width: 60%;
-  }
+.sound {
+  position: absolute;
+  z-index: 300;
 }
 
-@media (max-width: 767px) {
-  body {
-    margin: 40px;
-    font-size: 10px;
-  }
-  .process-template {
-    width: 100%;
+@media (max-width: 1500px) {
+  h1 {
+    color: rgb(49, 37, 1);
   }
 }
