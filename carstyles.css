@@ -4,7 +4,6 @@ body {
   overflow: hidden;
   box-sizing: border-box;
   background-color: teal;
-
   height: 100vh;
 }
 
@@ -16,6 +15,7 @@ body {
     url("fonts/Bespoke-rgHFRhKYlZ.ttf") format("truetype"),
     url("fonts/Bespoke-rgHFRhKYlZ.svg#Bespoke-rgHFRhKYlZ") format("svg");
 }
+
 .maincontainer {
   position: relative;
   width: auto;
@@ -24,6 +24,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   top: 35vh;
 }
+
 .cont1,
 .cont2,
 .cont3 {
@@ -76,7 +77,7 @@ p {
   border-radius: 0 20px 20px 0;
   cursor: url("gunpoint.png"), pointer;
 }
-
+/* images */
 .wave1 {
   top: 7rem;
   position: absolute;
@@ -123,17 +124,15 @@ h1 {
   left: 40%;
   position: absolute;
 }
+/* animation */
 h1:hover {
   text-shadow: 0 0 50px #fff300;
 }
 .baner {
   left: 37%;
 }
-.sound {
-  position: absolute;
-  z-index: 300;
-}
 
+/* responsive */
 @media (max-width: 1500px) {
   h1 {
     color: rgb(49, 37, 1);
