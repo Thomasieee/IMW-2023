@@ -105,11 +105,11 @@ p {
   width: auto;
   z-index: 10;
 }
-.curtaintop,
-.baner {
+.curtaintop {
   position: absolute;
   width: auto;
   z-index: 11;
+  top: 0;
 }
 h1 {
   font-size: 90px;
@@ -129,7 +129,11 @@ h1:hover {
   text-shadow: 0 0 50px #fff300;
 }
 .baner {
+  position: absolute;
+  width: auto;
+  z-index: 11;
   left: 37%;
+  top: 0;
 }
 
 /* responsive */
