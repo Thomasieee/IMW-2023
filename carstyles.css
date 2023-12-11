@@ -136,6 +136,10 @@ h1:hover {
   top: 0;
 }
 
+.sound {
+  z-index: 900;
+  position: absolute;
+}
 /* responsive */
 @media (max-width: 1500px) {
   h1 {
